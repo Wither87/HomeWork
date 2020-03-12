@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWorkWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="220" Width="400" Background="LightCyan">
-    <DockPanel>
-        <Button DockPanel.Dock="Left" Background="DarkMagenta">LeftButton</Button>
-        <Button DockPanel.Dock="Bottom" Background="Firebrick">BottomButton</Button>
-        <Button DockPanel.Dock="Right" Background="CadetBlue">RightButton</Button>
-        <Button DockPanel.Dock="Top" Background="GreenYellow">TopButton</Button>
-        <Button Background="Honeydew">Свободное пространство</Button>
+        Title="MainWindow" SizeToContent="WidthAndHeight" >
+    <DockPanel LastChildFill="True" MinWidth="400" MinHeight="300">
+        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Right" Orientation="Horizontal" MinWidth="40">
+            <Button Margin="5" Padding="5">OK</Button>
+            <Button Margin="5" Padding="5">Cancel</Button>
+        </StackPanel>
+        <TextBox DockPanel.Dock="Top" Margin="5" FontSize="15" BorderBrush="Azure" BorderThickness="3">Какой то текст...</TextBox> 
     </DockPanel>
 </Window>
