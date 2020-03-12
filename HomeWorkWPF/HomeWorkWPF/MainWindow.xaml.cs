@@ -24,5 +24,17 @@ namespace HomeWorkWPF
         {
             InitializeComponent();
         }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            Btn_next.Content = "--> Next other page and window";
+            Btn_prev.Content = "<-- Prev other page and window";
+        }
+
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            Btn_next.Content = "> Next";
+            Btn_prev.Content = "< Prev";
+        }
     }
 }
