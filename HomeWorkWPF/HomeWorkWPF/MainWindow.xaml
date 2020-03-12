@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:HomeWorkWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="220" Width="400" Background="LightCyan">
-    <StackPanel Margin="5">
-        <Label Content="Example" HorizontalAlignment="Center" Margin="5"/>
-        <Button Margin="5" MaxWidth="200" MinWidth="100">Button 1</Button>
-        <Button Margin="5" MaxWidth="200" MinWidth="100">Button 2</Button>
-        <Button Margin="5" MaxWidth="200" MinWidth="100">Button 3</Button>
-        <Button Margin="5" MaxWidth="200" MinWidth="100">Button 4</Button>
-    </StackPanel>
+    <WrapPanel Background="LightGoldenrodYellow" ItemWidth="200" ItemHeight="30">
+        <Label Content="MyWrapPanel" FontSize="15"/>
+        <Label Content="Label 1"/>
+        <TextBox></TextBox>
+        <Label Content="Label 2"/>
+        <TextBox></TextBox>
+        <Label Content="Label 3"/>
+        <TextBox></TextBox>
+        <Button Width="80">Ok</Button>
+    </WrapPanel>
 </Window>
