@@ -5,6 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HomeWorkWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Button Height="200" Width="240" FontSize="30">Ok</Button>
+        Title="MainWindow" Height="220" Width="400" Background="LightCyan">
+    <StackPanel Margin="8">
+        <Label>Контактная информация</Label>
+        <Label>Логин: </Label>
+        <TextBox MaxWidth="250" MinWidth="150" HorizontalAlignment="Left"></TextBox>
+        <Label>Пароль: </Label>
+        <TextBox MaxWidth="250" MinWidth="150" HorizontalAlignment="Left"></TextBox>
+        <Button Margin="20" MaxWidth="120" HorizontalAlignment="Stretch" MinWidth="100" Content="Отправить"></Button>
+    </StackPanel>
 </Window>
