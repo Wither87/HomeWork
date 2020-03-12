@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:HomeWorkWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="220" Width="400" Background="LightCyan">
-    <StackPanel Margin="8">
-        <Label>Контактная информация</Label>
-        <Label>Логин: </Label>
-        <TextBox MaxWidth="250" MinWidth="150" HorizontalAlignment="Left"></TextBox>
-        <Label>Пароль: </Label>
-        <TextBox MaxWidth="250" MinWidth="150" HorizontalAlignment="Left"></TextBox>
-        <Button Margin="20" MaxWidth="120" HorizontalAlignment="Stretch" MinWidth="100" Content="Отправить"></Button>
+    <StackPanel Margin="5">
+        <Label Margin="5" Content="Example" HorizontalAlignment="Center"></Label>
+        <Button Margin="5" HorizontalAlignment="Left">Button 1</Button>
+        <Button Margin="5" HorizontalAlignment="Right">Button 2</Button>
+        <Button Margin="5">Button 3</Button>
+        <Button Margin="5" HorizontalAlignment="Center">Button 4</Button>
+        <Button Margin="5,10,70,40">Button 5</Button>
     </StackPanel>
 </Window>
